@@ -1,3 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World1!");
-Console.WriteLine("Hello, World2!");
+﻿using System;
+
+namespace Records
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            PersonRecordExample.Run();
+        }
+    }
+}
